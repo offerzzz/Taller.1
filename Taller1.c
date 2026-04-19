@@ -8,6 +8,10 @@ int main (){
         for(int j=0; j<5; j++){
         printf("Ingrese la nota:\n");
         scanf("%f", &notas[i][j]); 
+        while (notas[i][j] <0 || notas[i][j] >10){
+            printf("nota invalida ingrese otra: ");
+            scanf("%d", &notas[i][j]);
+        }
         }
     }
     return 0;

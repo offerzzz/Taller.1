@@ -1,4 +1,4 @@
-
+include <stdio.h>
 int main() {
     int num_estudiantes = 5, num_materias = 3;
     char materias[3][20];
